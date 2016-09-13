@@ -1,0 +1,131 @@
+@charset "utf-8";
+/* CSS Document */
+
+.relieveboundbox,.savesitebox {
+	width:90%;
+	background-color:#fff;
+	position:fixed;
+	top:50%;
+	left:5%;
+	z-index:9999;
+	margin-top:-90px;
+	box-shadow:1px 1px 5px 2px #999;
+	display:none;
+}
+.relieveboundbox h3,.savesitebox h3{
+	width:100%;
+	padding:0px 10px;
+	line-height:44px;
+	color:#64adb0;
+	font-size:14px;
+}
+.relieveboundbox label,.savesitebox label,.savesitebox span {
+	float:left;
+	padding:0px 0px 0px 10px;
+	line-height:40px;
+	color:#000;
+	font-size:12px;
+}
+.relieveboundbox input[type = checkbox],.savesitebox input[type = radio] {
+	float:right;
+	width:14px;
+	height:14px;
+	margin:13px 10px 0px 0px;
+}
+
+#section {
+	margin:10px 0px 0px;
+}
+hr {
+	border-bottom:none;
+	border-top:1px solid #dadada;
+	margin:0px;
+}
+
+#section > .set figure {
+	background-color:#FFF;
+	padding:0px 10px;
+	cursor:pointer;
+}
+#section > .set figure .ctrlbox {
+	width:52px;
+	height:28px;
+	border-radius:24px;
+	background-color:#999;
+	padding:2px;
+	float:right;
+	margin:8px 0px;
+}
+.bg {
+	background-color:#64adb0 !important;
+}
+#section > .set figure .ctrlbox .ctrl:nth-child(1) {
+	width:24px;
+	height:24px;
+	border-radius:24px;
+	background-color:#fff;
+	margin:0px;
+}
+#section > .set figure .ctrlbox .ctrl:nth-child(2) {
+	width:24px;
+	height:24px;
+	border-radius:24px;
+	background-color:#fff;
+	margin:0px 0px 0px 24px;
+	display:none;
+}
+
+#section > .set figure figcaption {
+	float:left;
+	line-height:44px;
+	color:#000;
+	font-size:14px;
+}
+#section > .set figure span {
+	line-height:44px;
+	color:#646464;
+	font-size:12px;
+	margin:0px 5px;
+}
+#section > .set figure .out {
+	display:none;
+}
+#section > .set figure img {
+	float:right;
+	height:24px;
+	margin:10px 10px;
+}
+@media (min-width:375px) and (max-width:480px) {
+	.relieveboundbox h3,.savesitebox h3,#section > .set figure figcaption {
+		font-size:16px;
+	}
+	.relieveboundbox label,.savesitebox label,.savesitebox span,#section > .set figure span {
+		font-size:14px;
+	}
+}
+
+@media (min-width:481px) and (max-width:621px) {
+	.relieveboundbox h3,.savesitebox h3,#section > .set figure figcaption {
+		font-size:18px;
+	}
+	.relieveboundbox label,.savesitebox label,.savesitebox span,#section > .set figure span {
+		font-size:16px;
+	}
+}
+
+@media (min-width:622px) {
+	.relieveboundbox h3,.savesitebox h3,#section > .set figure figcaption {
+		font-size:20px;
+	}
+	.relieveboundbox label,.savesitebox label,.savesitebox span,#section > .set figure span {
+		font-size:18px;
+	}
+}
+
+
+
+
+
+
+
+

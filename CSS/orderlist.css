@@ -1,0 +1,191 @@
+@charset "utf-8";
+/* CSS Document */
+#header > #nav > ul li {
+	font-size:14px;
+	width:33.33%;
+	float:left;
+	text-align:center;
+	line-height:38px;
+	color:#323232;
+	border:1px solid #dadada;
+	border-left:none;
+	background-color:#eee;
+}
+.current {
+	color:#64adb0 !important;
+}
+#section > .shop .coursename {
+	width:100%;
+	background-color:#eee;
+	padding:0px 10px;
+}
+#section > .shop .coursename h2 {
+	float:left;
+	font-size:14px;
+	color:#000;
+	line-height:36px;
+	font-weight:normal;
+}
+#section > .shop .coursename h6 {
+	float:right;
+	font-size:14px;
+	color:#646464;
+	line-height:40px;
+	font-weight:normal;
+}
+#section > .shop > figure {
+	background-color:#FFF;
+	border-bottom:1px dashed #dadada;
+}
+#section > .shop > figure .img {
+	width:72px;
+	height:72px;
+	margin:10px 8px;
+	float:left;
+	border:1px solid #dadada;
+	padding:6px;
+	overflow:hidden;
+}
+#section > .shop > figure .img img {
+	width:100%;
+}
+#section > .shop > figure hgroup {
+	margin:10px 0px 0px;
+	width:50%;
+	float:left;
+}
+#section > .shop > figure hgroup h3 {
+	font-size:14px;
+	color:#323232;
+	line-height:28px;
+	font-weight:normal;
+	margin:0px 0px 4px;
+ 	overflow : hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+}
+#section > .shop > figure hgroup h4 {
+	font-size:12px;
+	color:#646464;
+	line-height:22px;
+	font-weight:normal;
+}
+#section > .shop > figure hgroup h5 {
+	font-size:12px;
+	color:#323232;
+	line-height:22px;
+	font-weight:normal;
+}
+#section > .shop > figure .num {
+	float:right;
+	margin:0px 8px;
+}
+#section > .shop > figure .num h6 {
+	text-align:left;
+	font-size:14px;
+	color:#64adb0;
+	line-height:32px;
+	font-weight:normal;
+	margin:30px 0px 0px;
+}
+
+#section > .shop > .cont h5 {
+	float:right;
+	font-size:12px;
+	color:#000;
+	line-height:30px;
+	font-weight:normal;
+	margin:5px 10px 5px;
+}
+#section > .shop > .cont h4 {
+	float:right;
+	font-size:12px;
+	color:#000;
+	line-height:30px;
+	font-weight:normal;
+	margin:5px 0px 5px;
+}
+#section > .shop > .cont span {
+	font-size:12px;
+	color:#64adb0;
+	line-height:30px;
+	margin:0px 2px;
+}
+#section > .shop > .cont .btn1 {
+	float:right;
+	font-size:14px;
+	color:#fff;
+	line-height:28px;
+	background-color:#64adb0;
+	padding:0px 12px;
+	-webkit-border-radius:6px;
+	-moz-border-radius:6px;
+	-ms-border-radius:6px;
+	-o-border-radius:6px;
+	border-radius:6px;
+	margin:0px 10px 10px 5px;
+	border:1px solid #64adb0;
+}
+#section > .shop > .cont .btn2 {
+	float:right;
+	font-size:14px;
+	color:#323232;
+	line-height:28px;
+	border:1px solid #64adb0;
+	padding:0px 12px;
+	-webkit-border-radius:6px;
+	-moz-border-radius:6px;
+	-ms-border-radius:6px;
+	-o-border-radius:6px;
+	border-radius:6px;
+	margin:0px 5px 10px;
+}
+
+@media (min-width:375px) and (max-width:480px) {
+	#header > #nav > ul li,#section > .shop .coursename h2,#section > .shop .coursename h6,#section > .shop > figure hgroup h3,#section > .shop > figure .num h6,#section > .shop > .cont .btn1,#section > .shop > .cont .btn2 {
+		font-size:16px;
+	}
+	#section > .shop > figure hgroup h4,#section > .shop > figure hgroup h5,#section > .shop > .cont h4,#section > .shop > .cont h5,#section > .shop > .cont span {
+		font-size:14px;
+	}
+	#section > .shop > figure hgroup {
+		width:55%;
+	}
+}
+
+@media (min-width:481px) and (max-width:621px) {
+	#header > #nav > ul li,#section > .shop .coursename h2,#section > .shop .coursename h6,#section > .shop > figure hgroup h3,#section > .shop > figure .num h6,#section > .shop > .cont .btn1,#section > .shop > .cont .btn2 {
+		font-size:18px;
+	}
+	#section > .shop > figure hgroup h4,#section > .shop > figure hgroup h5,#section > .shop > .cont h4,#section > .shop > .cont h5,#section > .shop > .cont span {
+		font-size:16px;
+	}
+	#section > .shop > figure hgroup {
+		width:63%;
+	}
+}
+@media (min-width:622px) {
+	#header > #nav > ul li,#section > .shop .coursename h2,#section > .shop .coursename h6,#section > .shop > figure hgroup h3,#section > .shop > figure .num h6,#section > .shop > .cont .btn1,#section > .shop > .cont .btn2 {
+		font-size:20px;
+	}
+	#section > .shop > figure hgroup h4,#section > .shop > figure hgroup h5,#section > .shop > .cont h4,#section > .shop > .cont h5,#section > .shop > .cont span {
+		font-size:18px;
+	}
+	#section > .shop > figure .img {
+		width:88px;
+		height:88px;
+	}
+	#section > .shop > figure hgroup {
+		width:67%;
+	}
+}
+
+
+
+
+
+
+
+

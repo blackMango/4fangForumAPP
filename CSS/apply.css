@@ -1,0 +1,77 @@
+@charset "utf-8";
+/* CSS Document */
+
+#section > .select {
+	margin:10px 0px;
+	padding:0px 0px 10px;
+	border-bottom:1px dashed #dadada;
+}
+#section > .select p {
+	font-size:14px;
+	color:#000;
+	line-height:30px;
+	border:1px solid #dadada;
+	padding:0px 20px;
+	margin:10px;
+	float:left;
+}
+.colorstyle {
+	color:#64adb0 !important;
+	border:1px solid #64adb0 !important;
+}
+#section > #cont {
+	width:96%;
+	margin:0px auto 20px;
+}
+#section > #cont > hgroup h3 {
+	float:left;
+	font-size:12px;
+	line-height:26px;
+	color:#323232;
+	font-weight:normal;
+}
+#section > #cont > hgroup h4 {
+	float:right;
+	font-size:12px;
+	line-height:26px;
+	color:#64adb0 ;
+	font-weight:normal;
+}
+#section > #cont > hgroup .del {
+	text-decoration:line-through;
+}
+
+
+@media (min-width:375px) and (max-width:480px) {
+	#section > .select p {
+		font-size:16px;
+	}
+	#section > #cont > hgroup h3,#section > #cont > hgroup h4 {
+		font-size:14px;
+	}
+}
+@media (min-width:481px) and (max-width:621px) {
+	#section > .select p {
+		font-size:18px;
+	}
+	#section > #cont > hgroup h3,#section > #cont > hgroup h4 {
+		font-size:16px;
+	}
+}
+@media (min-width:622px) {
+	#section > .select p {
+		font-size:20px;
+	}
+	#section > #cont > hgroup h3,#section > #cont > hgroup h4 {
+		font-size:18px;
+	}
+}
+
+
+
+
+
+
+
+
+

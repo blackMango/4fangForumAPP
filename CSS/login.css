@@ -1,0 +1,100 @@
+@charset "utf-8";
+/* CSS Document */
+#header > figure span {
+	float:right;
+	line-height:44px;
+	margin:0px 20px;
+	font-size:14px;
+	color:#323232;
+	cursor:pointer;
+}
+
+#section {
+	margin:10px 0px 0px;
+}
+#section hr {
+	border-bottom:none;
+	border-top:1px solid #dadada;
+	margin:0px;
+}
+
+#section > .password,#section > .test {
+	background-color:#FFF;
+	padding:0px 10px;
+}
+#section > .password input[type = password] {
+	width:85%;
+	display:inline-block;
+	border:none;
+	line-height:36px;
+	height:36px;
+	color:#000;
+	font-size:14px;
+	margin:4px 0px;
+	float:left;
+}
+#section .img {
+	float:right;
+}
+#section > .password .img img {
+	height:20px;
+	margin:12px 5px 0px 0px;
+}
+#section > .test input[type = text] {
+	display:inline-block;
+	width:85%;
+	float:left;
+	border:none;
+	line-height:36px;
+	height:36px;
+	color:#000;
+	font-size:14px;
+	margin:4px 0px;
+}
+#section > .test .img img {
+	height:26px;
+	margin:8px 10px 0px 0px;
+}
+
+#section > hgroup h3 {
+	float:left;
+	line-height:36px;
+	color:#323232;
+	font-size:12px;
+	margin:0px 20px;
+	font-weight:normal;
+}
+#section > hgroup h4 {
+	float:right;
+	line-height:36px;
+	color:#323232;
+	font-size:12px;
+	margin:0px 20px;
+	font-weight:normal;
+}
+
+@media (min-width:375px) and (max-width:480px) {
+	#section > .password input[type = password],#section > .test input[type = text],#header > figure span {
+		font-size:16px;
+	}
+	#section > hgroup h3,#section > hgroup h4 {
+		font-size:14px;
+	}
+}
+@media (min-width:481px) and (max-width:620px) {
+	#section > .password input[type = password],#section > .test input[type = text],#header > figure span {
+		font-size:18px;
+	}
+	#section > hgroup h3,#section > hgroup h4 {
+		font-size:16px;
+	}
+}
+@media (min-width:621px) {
+	#section > .password input[type = password],#section > .test input[type = text],#header > figure span {
+		font-size:20px;
+	}
+	#section > hgroup h3,#section > hgroup h4 {
+		font-size:18px;
+	}
+}
+

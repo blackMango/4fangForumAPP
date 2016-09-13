@@ -1,0 +1,130 @@
+@charset "utf-8";
+/* CSS Document */
+#section {
+	margin:10px 0px 0px;
+}
+#section > .inform {
+	margin:0px 0px 10px;
+}
+#section > .inform h3 {
+	float:left;
+	font-size:14px;
+	line-height:40px;
+	color:#000;
+}
+#section > .inform .informbox {
+	width:100%;
+	background-color:#FFF;
+	border:1px solid #dadada;
+	border-left:none;
+	border-right:none;
+	padding:0px 10px;
+}
+#section > .inform .informcontent {
+	background-color:#FFF;
+	padding:0px 10px;
+}
+#section > .inform .informcontent figure {
+	border-bottom:1px dashed #dadada;
+}
+#section > .inform .informcontent figure .img {
+	float:left;
+	margin:10px 0px;
+}
+#section > .inform .informcontent figure .img img {
+	height:80px;
+}
+#section > .inform .informcontent figure figcaption {
+	width:69%;
+	padding:10px;
+	float:left;
+}
+#section > .inform .informcontent figure figcaption h2 {
+	font-size:14px;
+	color:#000;
+	line-height:26px;
+	margin:0px 0px 8px;
+	text-overflow:ellipsis;
+	white-space:nowrap;
+	overflow:hidden;
+}
+#section > .inform .informcontent figure figcaption h3 {
+	float:left;
+	font-weight:normal;
+	font-size:12px;
+	color:#646464;
+	line-height:22px;
+}
+#section > .inform .informcontent figure figcaption img {
+	float:left;
+	height:10px;
+	margin:4px 2px;
+}
+#section > .inform .informcontent figure figcaption h4 {
+	font-weight:normal;
+	font-size:12px;
+	color:#646464;
+	line-height:22px;
+}
+
+
+
+
+
+
+@media (min-width:375px) and (max-width:480px) {
+	#section > .inform h3,#section > .inform .informcontent figure figcaption h2 {
+		font-size:16px;
+	}
+	#section > .inform .informcontent figure figcaption h3,#section > .inform .informcontent figure figcaption h4 {
+		font-size:14px;
+	}
+	#section > .inform .informcontent figure figcaption {
+		width:74%;
+	}
+}
+@media (min-width:481px) and (max-width:621px) {
+	#section > .inform h3,#section > .inform .informcontent figure figcaption h2 {
+		font-size:18px;
+	}
+	#section > .inform .informcontent figure figcaption h3,#section > .inform .informcontent figure figcaption h4 {
+		font-size:16px;
+	}
+	#section > .inform .informcontent figure figcaption {
+		width:79%;
+	}
+	#section > .inform .informcontent figure figcaption img {
+		height:12px;
+	}
+}
+@media (min-width:622px) {
+	#section > .inform .informcontent figure figcaption h2 {
+		font-size:20px;
+		line-height:28px;
+	}
+	#section > .inform h3 {
+		font-size:20px;
+	}
+	#section > .inform .informcontent figure figcaption h3,#section > .inform .informcontent figure figcaption h4 {
+		font-size:18px;
+		line-height:24px;
+	}
+	#section > .inform .informcontent figure .img img {
+		height:88px;
+	}
+	#section > .inform .informcontent figure figcaption {
+		width:83%;
+	}
+	#section > .inform .informcontent figure figcaption img {
+		height:14px;
+	}
+}
+
+
+
+
+
+
+
+
+

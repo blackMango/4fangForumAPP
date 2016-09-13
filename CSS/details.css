@@ -1,0 +1,292 @@
+@charset "utf-8";
+/* CSS Document */
+.nav {
+	width:100%;
+	padding:0px 5%;
+	background-color:rgba(105,105,105,0.9);
+	position:fixed;
+	bottom:0px;
+	left:0px;
+	z-index:9999;
+}
+.nav > ul li {
+	float:left;
+	width:40%;
+	background-color:#64adb0;
+	-webkit-border-radius:36px;
+	-moz-border-radius:36px;
+	-ms-border-radius:36px;
+	-o-border-radius:36px;
+	border-radius:36px;
+	line-height:36px;
+	text-align:center;
+	margin:10px 5%;
+	color:#FFF;
+	font-size:16px;
+	cursor:pointer;
+	
+}
+
+#section > .img {
+	position:relative;
+}
+#section > .img img {
+	width:100%;
+}
+#section > .img .btnbox {
+	width:80%;
+	position:absolute;
+	bottom:20px;
+	left:10%;
+}
+#section > .img .btnbox .btn1 {
+	float:left;
+	width:40%;
+	line-height:36px;
+	height:36px;
+	-webkit-border-radius:6px;
+	-moz-border-radius:6px;
+	-ms-border-radius:6px;
+	-o-border-radius:6px;
+	border-radius:6px;
+	background-color:#64adb0;
+	color:#FFF;
+	font-size:14px;
+	text-align:center;
+	margin:0px 5%;
+}
+#section > .plan > h2,#section > .why > h2,#section > .coursestyle h2,#section > .courselist h2,#section > .careerstar h2,#section > .company h2 {
+	width:100%;
+	text-align:center;
+	font-size:18px;
+	color:#64adb0;
+	margin:10px auto 0px;
+	line-height:28px;
+}
+#section > .plan > h5,#section > .coursestyle h5,#section > .courselist h5,#section > .careerstar h5,#section > .company h5 {
+	width:100%;
+	text-align:center;
+	font-size:14px;
+	color:#646464;
+	margin:0px auto 10px;
+	line-height:24px;
+	font-weight:normal;
+}
+#section > .plan hgroup {
+	float:left;
+	width:40%;
+	-webkit-border-radius:6px;
+	-moz-border-radius:6px;
+	-ms-border-radius:6px;
+	-o-border-radius:6px;
+	border-radius:6px;
+	background-color:#64adb0;
+	margin:0px 5%;
+	padding:10px;
+}
+#section > .plan hgroup h3 {
+	width:100%;
+	text-align:center;
+	font-size:14px;
+	color:#fff;
+	margin:10px auto 0px;
+	line-height:30px;
+}
+#section > .plan hgroup h4 {
+	width:100%;
+	text-align:center;
+	font-size:12px;
+	color:#fff;
+	margin:0px auto 10px;
+	line-height:30px;
+	font-weight:normal;
+}
+#section > .plan hgroup h6 {
+	font-size:12px;
+	color:#fff;
+	margin:0px auto 20px;
+	line-height:24px;
+	font-weight:normal;
+	text-align:justify;
+}
+#section > .why figure img {
+	float:left;
+	height:52px;
+	margin:10px;
+}
+#section > .why figure .whybox {
+	width:77%;
+	float:left;
+	margin:10px 0px;
+	padding:0px 10px 0px 0px;
+}
+#section > .why figure figcaption {
+	font-size:12px;
+	color:#000;
+	line-height:20px;
+	margin:0px 0px 6px;
+}
+#section > .why figure h3 {
+	font-size:12px;
+	color:#909090;
+	line-height:20px;
+	font-weight:normal;
+	margin:0px 0px 6px;
+}
+#section > .why figure h4 {
+	font-size:12px;
+	color:#000;
+	line-height:20px;
+	font-weight:normal;
+}
+#section > .coursestyle figure {
+	background-color:#aaa;
+	padding:0px 10px;
+	border-radius:8px;
+	margin:10px auto;
+}
+#section > .coursestyle figure img {
+	float:left;
+	width:44px;
+	height:44px;
+	margin:8px 0px;
+}
+#section > .coursestyle figure figcaption {
+	width:81%;
+	float:left;
+	font-size:12px;
+	color:#000;
+	line-height:22px;
+	font-weight:normal;
+	margin:8px 6px;
+	height:44px;
+ 	overflow : hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+}
+#section > .courselist img,#section > .teacher img,#section > .company img {
+	width:100%;
+}
+#section > .teacher p {
+	background-color:#000;
+	color:#FFF;
+	font-size:12px;
+	line-height:28px;
+	padding:10px;
+	text-indent:32px;
+}
+#section > .careerstar figure {
+	background-color:#FFF;
+	width:100%;
+	padding:10px;
+	margin:0px auto 10px;
+}
+#section > .careerstar figure img {
+	float:left;
+	height:72px;
+	margin:0px 10px;
+}
+#section > .careerstar figure hgroup {
+	float:left;	
+}
+#section > .careerstar figure hgroup h3 {
+	color:#323232;
+	font-size:14px;
+	line-height:24px;
+	font-weight:normal;
+}
+#section > .careerstar figure figcaption {
+	width:100%;
+	color:#64adb0;
+	font-size:16px;
+	line-height:30px;
+	text-align:center;
+	font-weight:normal;
+	margin:10px auto 0px;
+}
+
+
+
+@media (min-width:375px) and (max-width:480px) {
+	.nav > ul li,#section > .careerstar figure figcaption {
+		font-size:18px;
+	}
+	#section > .img .btnbox .btn1,#section > .plan > h5,#section > .coursestyle h5,#section > .courselist h5,#section > .careerstar h5,#section > .company h5,#section > .plan hgroup h3,#section > .careerstar figure hgroup h3 {
+		font-size:16px;
+	}
+	#section > .plan > h2,#section > .why > h2,#section > .coursestyle h2,#section > .courselist h2,#section > .careerstar h2,#section > .company h2 {
+		font-size:20px;
+	}
+	#section > .plan hgroup h4,#section > .plan hgroup h6,#section > .why figure figcaption,#section > .why figure h3,#section > .why figure h4,#section > .teacher p {
+		font-size:14px;
+	}
+	#section > .why figure .whybox {
+		width:80%;
+	}
+	#section > .coursestyle figure figcaption {
+		font-size:14px;
+		width:84%;
+	}
+}
+@media (min-width:481px) and (max-width:621px) {
+	.nav > ul li,#section > .careerstar figure figcaption {
+		font-size:20px;
+	}
+	#section > .img .btnbox .btn1,#section > .plan > h5,#section > .coursestyle h5,#section > .courselist h5,#section > .careerstar h5,#section > .company h5,#section > .plan hgroup h3,#section > .careerstar figure hgroup h3 {
+		font-size:18px;
+	}
+	#section > .plan > h2,#section > .why > h2,#section > .coursestyle h2,#section > .courselist h2,#section > .careerstar h2,#section > .company h2 {
+		font-size:22px;
+	}
+	#section > .plan hgroup h4,#section > .plan hgroup h6,#section > .why figure figcaption,#section > .why figure h3,#section > .why figure h4,#section > .teacher p {
+		font-size:16px;
+	}
+	#section > .why figure .whybox {
+		width:84%;
+	}
+	#section > .coursestyle figure figcaption {
+		font-size:16px;
+		width:87%;
+	}
+}
+@media (min-width:622px) {
+	.nav > ul li,#section > .careerstar figure figcaption {
+		font-size:22px;
+	}
+	#section > .img .btnbox .btn1,#section > .plan > h5,#section > .coursestyle h5,#section > .courselist h5,#section > .careerstar h5,#section > .company h5,#section > .plan hgroup h3,#section > .careerstar figure hgroup h3 {
+		font-size:20px;
+	}
+	#section > .plan > h2,#section > .why > h2,#section > .coursestyle h2,#section > .courselist h2,#section > .careerstar h2,#section > .company h2 {
+		font-size:24px;
+	}
+	#section > .plan hgroup h4,#section > .plan hgroup h6,#section > .teacher p {
+		font-size:18px;
+	}
+	#section > .why figure figcaption,#section > .why figure h3,#section > .why figure h4 {
+		font-size:18px;
+		line-height:22px;
+	}
+	#section > .why figure .whybox {
+		width:86%;
+	}
+	#section > .why figure img {
+		height:66px;
+	}
+	#section > .coursestyle figure figcaption {
+		font-size:18px;
+		width:90%;
+		line-height:24px;
+	}
+	#section > .coursestyle figure img {
+		width:48px;
+	}
+}
+
+
+
+
+
+
+

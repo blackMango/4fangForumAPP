@@ -1,0 +1,90 @@
+@charset "utf-8";
+/* CSS Document */
+#section {
+	margin:10px 0px 0px;
+}
+#section hr {
+	border-bottom:none;
+	border-top:1px solid #dadada;
+	margin:0px;
+}
+
+#section > h2 {
+	width:94%;
+	margin:10px 3%;
+	border:1px solid #dadada;
+	text-align:center;
+	font-size:14px;
+	color:#000;
+	line-height:36px;
+	font-weight:normal;
+}
+#section > h2 span {
+	font-size:14px;
+	color:#000;
+	font-weight:bold;
+}
+
+#section > .test {
+	background-color:#FFF;
+	padding:0px 10px;
+}
+
+#section > .test input[type = tel] {
+	display:inline-block;
+	width:65%;
+	float:left;
+	border:none;
+	line-height:36px;
+	height:36px;
+	color:#000;
+	font-size:14px;
+	margin:4px 0px;
+}
+#section > .test span {
+	width:32%;
+	line-height:30px;
+	height:30px;
+	color:#fff;
+	font-size:12px;
+	background-color:#cdcdcd;
+	border-radius:4px;
+	text-align:center;
+	float:left;
+	font-weight:bold;
+	margin:7px 0px;
+	cursor:pointer;
+}
+
+
+@media (min-width:375px) and (max-width:480px) {
+	#section > .test span {
+		font-size:14px;
+		}
+	#section > .test input[type = tel],#section > h2,#section > h2 span {
+		font-size:16px;
+	}
+}
+@media (min-width:481px) and (max-width:620px) {
+	#section > .test span {
+		font-size:16px;
+	}
+	#section > .test input[type = tel],#section > h2,#section > h2 span {
+		font-size:18px;
+	}
+}
+@media (min-width:621px) {
+	#section > .test span {
+		font-size:18px;
+	}
+	#section > .test input[type = tel],#section > h2,#section > h2 span {
+		font-size:20px;
+	}
+}
+
+
+
+
+
+
+

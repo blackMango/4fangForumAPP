@@ -1,0 +1,89 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+#section {
+	margin:10px 0px 0px;
+}
+#section > .message {
+	background-color:#FFF;
+	padding:0px 10px;
+	cursor:pointer;
+}
+#section > .message h3 {
+	font-size:14px;
+	line-height:44px;
+	color:#646464;
+	font-weight:normal;
+	float:left;
+}
+#section > .message h6 {
+	font-size:12px;
+	line-height:44px;
+	color:#64adb0 ;
+	float:right;
+	font-weight:normal;
+}
+#section > .message h5 {
+	font-size:12px;
+	line-height:44px;
+	color:#646464;
+	font-weight:normal;
+	float:left;
+	margin:0px 0px 0px 4px;
+}
+#section > .message input[type = tel],#section > .message input[type = text],#section > .message input[type = email] {
+	font-size:14px;
+	width:68%;
+	line-height:44px;
+	height:44px;
+	display:inline-block;
+}
+#section > .message input[type = checkbox] {
+	width:14px;
+	height:14px;
+	margin:15px 0px;
+	display:inline-block;
+	float:left;
+}
+
+
+@media (min-width:375px) and (max-width:480px) {
+	#section > .message h3,#section > .message input[type = tel],#section > .message input[type = text],#section > .message input[type = email] {
+		font-size:16px;
+	}
+	#section > .message h6,#section > .message h5 {
+		font-size:14px;
+	}
+}
+
+@media (min-width:481px) and (max-width:621px) {
+	#section > .message h3,#section > .message input[type = tel],#section > .message input[type = text],#section > .message input[type = email] {
+		font-size:18px;
+	}
+	#section > .message h6,#section > .message h5 {
+		font-size:16px;
+	}
+}
+
+@media (min-width:622px) {
+	#section > .message h3,#section > .message input[type = tel],#section > .message input[type = text],#section > .message input[type = email] {
+		font-size:20px;
+	}
+	#section > .message h6,#section > .message h5 {
+		font-size:18px;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

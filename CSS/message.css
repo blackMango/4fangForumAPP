@@ -1,0 +1,88 @@
+@charset "utf-8";
+/* CSS Document */
+
+#section {
+	margin:10px 0px 0px;
+}
+#section > .message hr {
+	border-bottom:none;
+	border-top:1px solid #dadada;
+	margin:0px;
+}
+#section > .message hgroup,#section > .message > .test {
+	background-color:#FFF;
+	padding:0px 10px;
+}
+#section > .message hgroup h3 {
+	float:left;
+	line-height:44px;
+	color:#323232;
+	font-size:14px;
+	font-weight:normal;
+}
+#section > .message hgroup h4 {
+	float:left;
+	line-height:44px;
+	color:#000;
+	font-size:14px;
+	font-weight:normal;
+}
+#section > .message hgroup .img img {
+	float:right;
+	height:32px;
+	margin:6px 0px;
+}
+#section > .message hgroup > img {
+    height: 24px;
+    float: right;
+    margin: 10px 0px 0px 0px;
+	cursor:pointer;
+}
+
+#section > .message > .test label {
+	float:left;
+	line-height:44px;
+	color:#323232;
+	font-size:14px;
+	font-weight:normal;
+}
+#section > .message > .test input[type = radio] {
+	float:left;
+	height:14px;
+	width:14px;
+	margin:15px 5px 0px 10px;
+}
+#section > .message > .test input[type = text],#section > .message > .test input[type = tel] {
+	float:left;
+	height:44px;
+	width:200px;
+	line-height:44px;
+	color:#000;
+	font-size:14px;
+}
+
+
+@media (min-width:375px) and (max-width:480px) {
+	#section > .message hgroup h3,#section > .message hgroup h4,#section > .message > .test label,#section > .message > .test input[type = text],#section > .message > .test input[type = tel] {
+		font-size:16px;
+	}
+}
+
+@media (min-width:481px) and (max-width:621px) {
+	#section > .message hgroup h3,#section > .message hgroup h4,#section > .message > .test label,#section > .message > .test input[type = text],#section > .message > .test input[type = tel] {
+		font-size:18px;
+	}
+}
+
+@media (min-width:622px) {
+	#section > .message hgroup h3,#section > .message hgroup h4,#section > .message > .test label,#section > .message > .test input[type = text],#section > .message > .test input[type = tel] {
+		font-size:20px;
+	}
+}
+
+
+
+
+
+
+

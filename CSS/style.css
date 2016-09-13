@@ -1,0 +1,235 @@
+@charset "utf-8";
+/* CSS Document */
+* {
+	font-size:12px;
+	color:#646464;
+	font-family:"方正楷体简体",Arial,"微软雅黑";
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	-ms-box-sizing:border-box;
+	box-sizing:border-box;
+}
+article,aside,dialog,footer,header,legend,nav,section,figcaption,figure,hgroup,time,mark {
+	display:block;
+	margin:0px;
+}
+body,img,ul,li,a,p,input,h1,h2,figure,h3,h4,h5,h6,mark,figcaption,hgroup,b,dl,dt,dd {
+	margin:0px;
+	padding:0px;
+	border:none;
+	outline:none;
+	font-weight:normal;
+}
+body {
+	background-color:#f9f9f9;
+	min-width:320px;
+}
+img {
+	display:block; 
+	border:none;
+}
+a { 
+	text-decoration:none;
+}
+ul,li {
+	list-style:none;
+}
+.overflowH {
+	overflow:hidden;
+}
+
+.fix {
+	width:100%;
+	position:fixed;
+	top:0%;  
+	left:0%;  
+	z-index:9;  
+}
+#bg{ 
+	display:none;  
+	position:fixed;  
+	top:0%;  
+	left:0%;  
+	width:100%;
+	height:100%;
+	background-color:#000;  
+	z-index:999;  
+	-moz-opacity:0.4;
+	opacity:0.4;  
+	filter:alpha(opacity=20);
+}
+hr {
+	border-bottom:none;
+	border-top:1px solid #dadada;
+	margin:0px;
+}
+
+#rec {
+	position:fixed;
+	right:10px;
+	bottom:100px;
+	cursor:pointer;
+	display:none;
+	z-index:999;
+}
+.empty {
+	height:120px;
+}
+#section .space {
+	height:10px;
+}
+
+#header > figure {
+	background-color:#a3e6e8;
+}
+#header > figure img {
+	float:left;
+	height:20px;
+	margin:12px 20px;
+	cursor:pointer;
+}
+#header > figure figcaption {
+	float:left;
+	line-height:26px;
+	margin:9px 0px;
+	padding:0px 20px;
+	border-left:1px solid #58c1c4;
+	font-size:16px;
+	color:#000;
+}
+
+
+.footmenu {
+	position:fixed;
+	bottom:0px;
+	z-index:999;
+	background-color:#fff;
+	border:1px solid #dadada;
+	filter:Alpha(opacity = 92);
+	-webkit-opacity:0.92;
+	-moz-opacity:0.92;
+	-ms-opacity:0.92;
+	-o-opacity:0.92;
+	opacity:0.92;
+	height:50px;
+	width:100%;
+}
+.footmenu figure {
+	width:33.33%;
+	float:left;
+	cursor:pointer;
+}
+.footmenu figure img {
+	margin:5px auto 3px;
+	height:20px;
+}
+.footmenu .currentlogo img:nth-child(1) {
+	display:none;
+}
+.footmenu .currentlogo img:nth-child(2) {
+	display:block;
+}
+.footmenu figure img:nth-child(2) {
+	display:none;
+}
+.footmenu figure figcaption {
+	text-align:center;
+	font-size:14px;
+	color:#323232;
+	line-height:20px;
+}
+.color {
+	color:#64adb0 !important;
+}
+.bgcolor {
+	background-color:#64adb0 !important;
+}
+
+
+
+#section .btn {
+	font-size:18px;
+	line-height:32px;
+	color:#fafafa;
+	background-color:#64adb0;
+	float:left;
+	width:46%;
+	margin:10px 27%;
+	text-align:center;
+	-webkit-border-radius:6px;
+	-moz-border-radius:6px;
+	-ms-border-radius:6px;
+	-o-border-radius:6px;
+	border-radius:6px;
+}
+#section #btn a {
+	width:46%;
+	margin:10px 2%;
+	float:left;
+}
+#section #btn .btnl,#section #btn .btnr {
+	width:100%;
+	font-size:18px;
+	line-height:32px;
+	color:#fafafa;
+	background-color:#64adb0;
+	text-align:center;
+	-webkit-border-radius:6px;
+	-moz-border-radius:6px;
+	-ms-border-radius:6px;
+	-o-border-radius:6px;
+	border-radius:6px;
+}
+
+@media (min-width:481px) and (max-width:621px) {
+	#header > figure figcaption {
+		font-size:18px;
+	}
+	#section .btn,#section #btn .btnl,#section #btn .btnr {
+		font-size:20px;
+	}
+	.footmenu {
+		height:60px;
+	}
+	.footmenu figure img {
+		margin:8px auto 4px;
+		height:24px;
+	}
+	.footmenu figure figcaption {
+		font-size:16px;
+		line-height:20px;
+	}
+}
+
+@media (min-width:622px) {
+	#header > figure figcaption {
+		font-size:20px;
+	}
+	#section .btn,#section #btn .btnl,#section #btn .btnr {
+		font-size:22px;
+	}
+	.footmenu {
+		height:72px;
+	}
+	.footmenu figure img {
+		margin:10px auto 6px;
+		height:28px;
+	}
+	.footmenu figure figcaption {
+		font-size:18px;
+		line-height:20px;
+	}
+}
+
+/*
+	//单行
+	overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+	//多行
+ 	overflow : hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+*/

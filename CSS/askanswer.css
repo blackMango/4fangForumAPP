@@ -1,0 +1,59 @@
+@charset "utf-8";
+/* CSS Document */
+#section {
+	margin:10px 0px 0px;
+}
+
+.border {
+	border-right:none !important;
+	border-left:none !important;
+}
+.bgcolor {
+	background-color:#64adb0 !important;
+	color:#fff !important;
+}
+#section > ul li {
+	float:left;
+	width:33.33%;
+	line-height:36px;
+	font-size:14px;
+	color:#64adb0;
+	background-color:#d8fdff;
+	border:1px solid #64adb0;
+	text-align:center;
+	cursor:pointer;
+}
+#section > .actcontent .actcontentbox {
+	line-height:30px;
+	font-size:14px;
+	color:#64adb0;
+	text-align:center;
+	margin:20px 0px 0px;
+}
+
+
+@media (min-width:375px) and (max-width:480px) {
+	#section > ul li,#section > .actcontent .actcontentbox {
+		font-size:16px;
+	}
+	
+}
+@media (min-width:481px) and (max-width:621px) {
+	#section > ul li,#section > .actcontent .actcontentbox {
+		font-size:18px;
+	}
+}
+@media (min-width:622px) {
+	#section > ul li,#section > .actcontent .actcontentbox {
+		font-size:20px;
+	}
+}
+
+
+
+
+
+
+
+
+

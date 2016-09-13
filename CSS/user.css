@@ -1,0 +1,115 @@
+@charset "utf-8";
+/* CSS Document */
+
+#section > figure {
+    background-color: #64adb0;
+}
+#section > figure img:nth-child(1) {
+	float:left;
+	height:50px;
+	margin:10px 20px;
+}
+#section > figure figcaption {
+	font-size:18px;
+	color:#000;
+	border-left:1px solid #58c1c4;
+	float:left;
+	line-height:40px;
+	margin:15px 0px;
+	padding:0px 20px;
+}
+#section > figure figcaption a {
+	font-size:18px;
+	color:#000;
+	line-height:40px;
+}
+#section > figure figcaption:nth-child(3) {
+	display:none;
+}
+#section > figure .right img {
+	float:right;
+	height:26px;
+	margin:22px 20px;
+}
+#section > .bank hgroup:nth-child(1) {
+    border-right: 1px solid rgb(218, 218, 218);
+}
+#section > .bank hgroup {
+    width: 50%;
+    float: left;
+    background-color: rgb(255, 255, 255);
+    margin: 10px auto 0px;
+    border-bottom: 1px solid rgb(218, 218, 218);
+    border-top: 1px solid rgb(218, 218, 218);
+}
+#section > .bank hgroup h2 {
+    float: left;
+    font-size: 14px;
+    color: rgb(50, 50, 50);
+    line-height: 44px;
+    font-weight: normal;
+    margin: 0px 0px 0px 20px;
+}
+#section > .bank hgroup h3 {
+    float: right;
+    font-size: 14px;
+    color: #64adb0;
+    line-height: 44px;
+    font-weight: normal;
+    margin: 0px 20px 0px 0px;
+}
+#section > .mark {
+    background-color: rgb(255, 255, 255);
+    border-bottom: 1px solid rgb(218, 218, 218);
+    margin: 10px 0px;
+}
+#section > .mark figure {
+    border-top: 1px solid rgb(218, 218, 218);
+}
+#section > .mark figure img:nth-child(1) {
+    float: left;
+    height: 24px;
+    margin: 10px 8px 0px 10px;
+}
+#section > .mark figure figcaption {
+    float: left;
+    line-height: 44px;
+    font-size: 14px;
+    color: rgb(0, 0, 0);
+    font-weight: normal;
+}
+#section > .mark figure img:nth-child(3) {
+    height: 24px;
+    float: right;
+    margin: 10px 10px 0px 0px;
+}
+
+
+@media (max-width: 480px) and (min-width: 375px) {
+	#section > figure figcaption,#section > figure figcaption a,#section > .bank hgroup h2, #section > .mark figure figcaption {
+		font-size: 16px;
+	}
+	#section > .bank hgroup h3 {
+    	font-size: 18px;
+	}
+}
+@media (max-width: 621px) and (min-width: 481px) {
+	#section > figure figcaption,#section > figure figcaption a,#section > .bank hgroup h2, #section > .mark figure figcaption {
+		font-size: 18px;
+	}
+	#section > .bank hgroup h3 {
+    	font-size: 20px;
+	}
+}
+@media (min-width: 622px) {
+	#section > figure figcaption,#section > figure figcaption a,#section > .bank hgroup h2, #section > .mark figure figcaption {
+		font-size: 20px;
+	}
+	#section > .bank hgroup h3 {
+    	font-size: 22px;
+	}
+}
+
+
+
+

@@ -1,0 +1,64 @@
+@charset "utf-8";
+/* CSS Document */
+#section {
+	margin:10px 0px 0px;
+}
+
+#section > .all figure {
+	padding:5px 20px 0px;
+	background-color:#FFF;
+}
+#section > .all figure img {
+	float:left;
+	height:24px;
+	margin:10px 0px;
+}
+#section > .all figure figcaption {
+	float:left;
+	margin:0px 10px;
+	font-size:14px;
+	color:#000;
+	line-height:44px;
+}
+#section > .all figure span {
+	float:right;
+	font-size:12px;
+	color:#646464;
+	line-height:44px;
+}
+
+
+
+@media (min-width:375px) and (max-width:480px) {
+	#section > .all figure figcaption {
+		font-size:16px;
+	}
+	#section > .all figure span {
+		font-size:14px;
+	}
+}
+@media (min-width:481px) and (max-width:621px) {
+	#section > .all figure figcaption {
+		font-size:18px;
+	}
+	#section > .all figure span {
+		font-size:16px;
+	}
+}
+@media (min-width:622px) {
+	#section > .all figure figcaption {
+		font-size:20px;
+	}
+	#section > .all figure span {
+		font-size:18px;
+	}
+}
+
+
+
+
+
+
+
+
+
